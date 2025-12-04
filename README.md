@@ -247,14 +247,17 @@ make
 ./test_assign1
 ```
 
-Expected output:
+Expected :
 ```
 test single page content ... OK
 test multiple page content ... OK
 ... [test_assign1_1.c-test single page content-L99-02:57:29] OK: finished test
 
-Output:
-<img width="1470" height="956" alt="Screenshot 2025-12-04 at 03 37 13" src="https://github.com/user-attachments/assets/1bd295a3-89a2-4755-bd59-5c59897b3896" />
+output:
+test_assign1_1.c-test single page content-L93-02:57:29] OK: expected true: character in page read from disk is the one we expected.
+[test_assign1_1.c-test single page content-L93-02:57:29] OK: expected true: character in page read from disk is the one we expected.
+reading first block
+[test_assign1_1.c-test single page content-L99-02:57:29] OK: finished test
 
 
 ---
