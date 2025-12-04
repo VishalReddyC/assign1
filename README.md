@@ -3,7 +3,7 @@
 
 ---
 
-## 📋 WHAT IS THIS?
+##  WHAT IS THIS?
 
 This is a **Storage Manager** - a simple module that reads and writes blocks (pages) of data to/from disk files.
 
@@ -15,7 +15,7 @@ Think of it like a librarian:
 
 ---
 
-## 🏗️ CODE STRUCTURE
+##  CODE STRUCTURE
 
 ### Files Created:
 
@@ -41,7 +41,7 @@ Think of it like a librarian:
 
 ---
 
-## 💡 HOW IT WORKS
+##  HOW IT WORKS
 
 ### Key Concepts:
 
@@ -64,7 +64,7 @@ Think of it like a librarian:
 
 ---
 
-## 🔧 FUNCTIONS EXPLAINED
+##  FUNCTIONS EXPLAINED
 
 ### File Management Functions:
 
@@ -132,7 +132,7 @@ Think of it like a librarian:
 
 ---
 
-## 🎯 IMPLEMENTATION DETAILS
+##  IMPLEMENTATION DETAILS
 
 1. **Using FILE pointer**
    - Stored in `fHandle->mgmtInfo`
@@ -155,7 +155,7 @@ Think of it like a librarian:
 
 ---
 
-## 📊 HOW PAGES ARE STORED
+##  HOW PAGES ARE STORED
 
 File on disk:
 ```
@@ -170,7 +170,7 @@ To read Page 1:
 
 ---
 
-## 🔄 TYPICAL USAGE FLOW
+## � TYPICAL USAGE FLOW
 
 ```c
 // 1. Initialize
@@ -202,7 +202,7 @@ closePageFile(&fh);
 
 ---
 
-## ⚠️ IMPORTANT NOTES
+##  IMPORTANT NOTES
 
 1. **Memory Allocation**
    - Before calling read functions, allocate 4096 bytes:
@@ -230,7 +230,7 @@ closePageFile(&fh);
 
 ---
 
-## 🧪 TESTING
+##  TESTING
 
 The provided test file (test_assign1_1.c) tests:
 - ✅ Creating files
